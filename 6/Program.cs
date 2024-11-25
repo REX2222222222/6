@@ -9,7 +9,8 @@ namespace _6
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            //1112410049_王暐庭
             Console.Write("請輸入圓的半徑: ");
             if (!double.TryParse(Console.ReadLine(), out double radius) || radius <= 0)
             {
