@@ -15,11 +15,11 @@ namespace _6
             {
                 Console.WriteLine("半徑輸入錯誤，請輸入正數。");
                 return;
-            }
+        }
 
             Console.Write("請輸入圓週率的精度 (4 <= n <= 15): ");
             if (!int.TryParse(Console.ReadLine(), out int precision))
-            {
+        {
                 Console.WriteLine("精度輸入錯誤，請輸入整數。");
                 return;
             }
@@ -34,7 +34,7 @@ namespace _6
             Console.WriteLine("圓週長: {0:g}", circumference);
             double area = GetCircleArea(radius);
             Console.WriteLine("圓面積: {0:g}", area);
-        }
+            }
         static double CountPi(int n)
         {
             if (n < 4 || n > 15) return -1;
